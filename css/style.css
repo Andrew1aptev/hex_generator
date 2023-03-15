@@ -1,0 +1,35 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+    background: rgb(9,121,86);
+    background: linear-gradient(0deg, rgba(9,121,86,1) 32%, rgba(1,239,164,1) 100%, rgba(0,215,255,1) 100%);
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    
+    height: 300px;
+    width: 350px;
+}
+#color_block{
+    height: 300px;
+    width: 350px;
+    border: 2px solid black;
+    background-color: #fff;
+}
+#generate,#copy{
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+}
